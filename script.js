@@ -87,6 +87,16 @@ app.get('/carrer.html', (req, res) => {
     res.sendFile(__dirname + '/carrer.html');
 });
 
+// Serve sitemap.xml
+app.get('/sitemap.xml', (req, res) => {
+    res.sendFile(__dirname + '/sitemap.xml');
+});
+
+// Serve robots.txt
+app.get('/robots.txt', (req, res) => {
+    res.sendFile(__dirname + '/robots.txt');
+});
+
 
 
 // Route for link shortening
