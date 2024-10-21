@@ -48,6 +48,7 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
+    <!-- Add your blog posts here -->
     <url>
         <loc>https://www.webn.in/blog01.html</loc>
         <lastmod>2024-10-21</lastmod>
