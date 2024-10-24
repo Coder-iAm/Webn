@@ -35,57 +35,57 @@ db.connect((err) => {
 });
 
 // Route for home page
+// Route for home page
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
-app.get('/index.html', (req, res) => {
-    res.sendFile(__dirname + '/index.html');
-});
+
 app.get('/style.css', (req, res) => {
     res.sendFile(__dirname + '/style.css');
 });
-app.get('/analyze.html', (req, res) => {
+app.get('/analyze-shorten-url', (req, res) => {
     res.sendFile(__dirname + '/analyze.html');
 });
 
-app.get('/about.html', (req, res) => {
+app.get('/about', (req, res) => {
     res.sendFile(__dirname + '/about.html');
 });
-app.get('/blogs.html', (req, res) => {
+app.get('/blogs', (req, res) => {
     res.sendFile(__dirname + '/blogs.html');
 });
-app.get('/blog01.html', (req, res) => {
+app.get('/blog01', (req, res) => {
     res.sendFile(__dirname + '/blog01.html');
 });
-app.get('/blog02.html', (req, res) => {
+app.get('/blog02', (req, res) => {
     res.sendFile(__dirname + '/blog02.html');
 });
-app.get('/blog03.html', (req, res) => {
+app.get('/blog03', (req, res) => {
     res.sendFile(__dirname + '/blog03.html');
 });
-app.get('/blog04.html', (req, res) => {
+app.get('/blog04', (req, res) => {
     res.sendFile(__dirname + '/blog04.html');
 });
-app.get('/blog05.html', (req, res) => {
+app.get('/blog05', (req, res) => {
     res.sendFile(__dirname + '/blog05.html');
 });
 
-app.get('/blog06.html', (req, res) => {
+app.get('/blog06', (req, res) => {
     res.sendFile(__dirname + '/blog06.html');
 });
-app.get('/privacy.html', (req, res) => {
+app.get('/privacy-policies', (req, res) => {
     res.sendFile(__dirname + '/privacy.html');
 });
 
-app.get('/service.html', (req, res) => {
+app.get('/service', (req, res) => {
     res.sendFile(__dirname + '/service.html');
 });
-app.get('/terms.html', (req, res) => {
+app.get('/terms', (req, res) => {
     res.sendFile(__dirname + '/terms.html');
 });
-app.get('/carrer.html', (req, res) => {
+app.get('/carrer', (req, res) => {
     res.sendFile(__dirname + '/carrer.html');
 });
+
 
 // Serve sitemap.xml
 app.get('/sitemap.xml', (req, res) => {
