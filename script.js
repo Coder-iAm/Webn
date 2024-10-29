@@ -97,6 +97,9 @@ app.get('/robots.txt', (req, res) => {
     res.sendFile(__dirname + '/robots.txt');
 });
 
+app.get('/ads.txt', (req, res) => {
+    res.sendFile(__dirname + '/ads.txt');
+});
 
 
 // Route for link shortening
