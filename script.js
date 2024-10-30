@@ -72,6 +72,9 @@ app.get('/blog05', (req, res) => {
 app.get('/blog06', (req, res) => {
     res.sendFile(__dirname + '/blog06.html');
 });
+app.get('/blog07', (req, res) => {
+    res.sendFile(__dirname + '/blog07.html');
+});
 app.get('/privacy-policies', (req, res) => {
     res.sendFile(__dirname + '/privacy.html');
 });
