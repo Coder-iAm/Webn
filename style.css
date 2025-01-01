@@ -1374,3 +1374,44 @@ details:not([open]) p {
 ::-webkit-scrollbar-button {
     display: none; /* Hides the scrollbar buttons (optional) */
 }
+
+
+/* Adsterra Container */
+.ad-container {
+    display: flex;               /* Flexbox for alignment */
+    justify-content: center;     /* Horizontal centering */
+    align-items: center;         /* Vertical centering */
+    max-width: 100%;             /* Ensure it fits within the page */
+    width: 100%;                 /* Container takes full width */
+    height: auto;                /* Auto-adjust height */
+    margin: 0 auto;              /* Center the container itself */
+    overflow: hidden;            /* Prevent overflow issues */
+    box-sizing: border-box;      /* Ensure proper sizing */
+}
+
+/* Ad iframe styling */
+.ad-container iframe {
+    max-width: 100%;             /* Ensure iframe is responsive */
+    height: auto;                /* Maintain aspect ratio */
+    display: block;              /* Remove extra spacing */
+    margin: 0 auto;              /* Center iframe inside the container */
+}
+/* Adsterra Container */
+.ad-container2 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    width: 100%;             /* Full width */
+    margin: 0 auto;          /* Center container in the parent */
+    text-align: center;      /* Ensure any text or content aligns center */
+    position: relative;      /* Enable relative positioning */
+    overflow: hidden;        /* Prevent overflow issues */
+}
+
+/* Ad iframe styling */
+.ad-container2 iframe {
+    max-width: 100%;         /* Make iframe responsive */
+    height: auto;            /* Maintain aspect ratio */
+    display: block;          /* Remove inline-block spacing */
+    margin: 0 auto;          /* Center iframe in its container */
+}
