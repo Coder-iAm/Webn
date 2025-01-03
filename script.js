@@ -103,15 +103,7 @@ app.get('/robots.txt', (req, res) => {
 app.get('/ads.txt', (req, res) => {
     res.sendFile(__dirname + '/ads.txt');
 });
-app.get('/ads', (req, res) => {
-    res.redirect("https://www.profitablecpmrate.com/guujb9d2?key=6d3e8bf17f4f3b8995502c1cb0198627");
-});
-app.get('/ada', (req, res) => {
-    res.redirect("https://www.profitablecpmrate.com/guujb9d2?key=6d3e8bf17f4f3b8995502c1cb0198627");
-});
-app.get('/adb', (req, res) => {
-   res.redirect("https://www.profitablecpmrate.com/guujb9d2?key=6d3e8bf17f4f3b8995502c1cb0198627");
-});
+
 
 
 // Route for link shortening
