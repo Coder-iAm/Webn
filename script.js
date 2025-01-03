@@ -104,13 +104,13 @@ app.get('/ads.txt', (req, res) => {
     res.sendFile(__dirname + '/ads.txt');
 });
 app.get('/ads', (req, res) => {
-    res.sendFile(__dirname + '/webnads.html');
+    res.redirect("https://www.profitablecpmrate.com/guujb9d2?key=6d3e8bf17f4f3b8995502c1cb0198627");
 });
 app.get('/ada', (req, res) => {
-    res.sendFile(__dirname + '/webnads.html');
+    res.redirect("https://www.profitablecpmrate.com/guujb9d2?key=6d3e8bf17f4f3b8995502c1cb0198627");
 });
 app.get('/adb', (req, res) => {
-    res.sendFile(__dirname + '/webnads.html');
+   res.redirect("https://www.profitablecpmrate.com/guujb9d2?key=6d3e8bf17f4f3b8995502c1cb0198627");
 });
 
 
