@@ -1,6 +1,6 @@
 User-agent: *
-Disallow: /imgs/
-Disallow: /uploads/
+Allow: /imgs/
+Allow: /uploads/
 Allow: /
 
 Sitemap: https://www.webn.in/sitemap.xml
