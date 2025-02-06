@@ -9,6 +9,9 @@ require('dotenv').config({ path: path.join(__dirname, '.env.local') });
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+const helmet = require('helmet');  
+app.use(helmet());
+
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
