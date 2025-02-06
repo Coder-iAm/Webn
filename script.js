@@ -131,7 +131,7 @@ app.post('/shorten', (req, res) => {
                 console.error('Error inserting link into the database:', error);
                 return res.status(500).send('Error creating short link');
             }
-            res.json({ shortUrl: `${req.protocol}://${req.get('host')}/${code}` });
+            res.json({ shortUrl: `https://www.webn.in/${code}` });
         });
     });
 });
